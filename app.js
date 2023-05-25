@@ -1,7 +1,7 @@
 
-const myList = document.querySelector('.myList');
-const button = document.querySelector('.addbtn');
-const listTodo = document.querySelector('.todo');
+const myList = document.querySelector('#List');
+const button = document.querySelector('#btn');
+const listTodo = document.querySelector('#tasks');
 button.addEventListener('click', function () {
     addTask();
 })
